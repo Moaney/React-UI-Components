@@ -2,7 +2,13 @@ import React from 'react';
 import './Header.css';
 
 function HeaderTitle() {
-    return <h3>Lamda School @Lamda School * 5/29</h3>;
+    return (
+        <div className='HeaderTitle'>
+            <h2>Lambda School</h2>
+            <p>@LambdaSchool</p>
+            <p>5/29</p>
+        </div>
+    );
 }
 
 export default HeaderTitle;
